@@ -1,8 +1,11 @@
 package EqualSumChecker;
 
 public class EqualSumChecker {
- 
-    
+    public static boolean hasEqualSum(int a, int b, int c){
+        if(a + b == c) {
+            return true;
+        } return false;
+    }
 }
 
 //   Write a method hasEqualSum with 3 parameters of type int.
